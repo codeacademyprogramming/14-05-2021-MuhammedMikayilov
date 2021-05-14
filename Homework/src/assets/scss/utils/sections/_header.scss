@@ -1,0 +1,22 @@
+.navbar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+
+    .text-bold{
+        color: #000 !important;
+        font-weight: bold;
+    }
+    .icon-phone{
+        width: 33px;
+        height: 33px;
+        text-align: center;
+        line-height: 30px;
+        background: $gradient;
+
+        box-shadow: 0px 4px 8px rgba(205, 169, 41, 0.26);
+        border-radius: 59px;
+    }
+}

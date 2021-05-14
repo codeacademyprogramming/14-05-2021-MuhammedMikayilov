@@ -4,22 +4,182 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/4837e6de66.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Template</title>
   </head>
   <body>
-      <div class="container">
-          <div class="row">
-           <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="../src/assets/imgs/logo.png" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-           </div>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link">Payments</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacts</a>
+              </li>
+            </ul>
           </div>
-      </div>
+          <a class="navbar-brand m-0" href="#">
+            <img src="../src/assets/imgs/logo.png" alt="logo" class="img-fluid" />
+          </a>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent1"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item mr-1">
+                <a class="nav-link active" href="#">Daily 11am - 9pm</a>
+              </li>
+              <li class="nav-item mx-1">
+                <a class="nav-link" href="#">
+                  <div class="icon-phone">
+                    <img
+                      src="../src/assets/imgs/icon/phone.png"
+                      alt="phone icon"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item ml-1">
+                <a class="nav-link text-bold" href="#"> 0 800 33 08 98 </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Intro section start -->
+      <section id="intro">
+        <div class="container h-100">
+          <div class="row justify-content-center">
+            <div class="content col-md-8 text-center">
+              <h1>Food delivery in Kovel</h1>
+              <p>
+                If you decide to relax or have unexpected guests, call us. We
+                make sure that your vacation is comfortable, enjoyable and
+                delicious
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Intro section end -->
+
+      <!-- Pizzas section start -->
+      <section id="pizzas">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="title">
+                <h1>Popular dishes</h1>
+                <div class="basket-icon">
+                  <i class="fas fa-shopping-bag"></i>
+                </div>
+                <div class="basket-hover">$48</div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5 pizzaItems">
+            <div class="loader text-center">
+              <div class="lds-dual-ring"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Basket start -->
+        <section id="basket" style="visibility: hidden; opacity: 0">
+          <div class="container">
+            <h2>Your Cart</h2>
+          </div>
+        </section>
+        <!-- Basket end -->
+      </section>
+      <!-- Pizzas section end -->
+    </main>
+
+    <footer>
+      <section id="footer-top">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="content col-md-8 text-center">
+              <h2 class="text-center">
+                Fill out the form and we will call you
+              </h2>
+
+              <div class="form mt-5">
+                <form class="row">
+                  <div class="col-md-4 input-form">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Your name"
+                    />
+                  </div>
+
+                  <div class="col-md-4 input-form">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Phone number"
+                    />
+                  </div>
+
+                  <div class="col-md-4 input-form">
+                    <button type="submit" class="form-control">
+                      Сall back
+                      <img
+                        src="../src/assets/imgs/icon/arrow.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <span>© Classic Family Restaurant</span>
+            </div>
+            <div class="col-md-4">
+              <img src="../src/assets/imgs/logo.png" alt="logo" />
+            </div>
+            <div class="col-md-4">
+              <span class="float-end"
+                >Made with delight by <strong>harmuder</strong></span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>

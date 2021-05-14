@@ -1,0 +1,40 @@
+#footer-top {
+    background-image: url("../imgs/footer.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+
+    .content {
+        margin-top: 24vh;
+
+        h2 {
+            font-size: 3rem;
+            text-align: center;
+        }
+    }
+
+
+    .input-form {
+        input, button {
+            border-radius: 30px;
+            padding: 10px 20px;
+        }
+
+        button {
+            background-color: #FE5626;
+            color: #fff;
+        }
+    }
+}
+
+#footer-bottom {
+    padding: 20px 0;
+
+
+    .col-md-4 {
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+}

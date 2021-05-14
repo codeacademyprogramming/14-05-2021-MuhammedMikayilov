@@ -1,0 +1,16 @@
+#intro {
+    background-image: url("../imgs/intro.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    .content{
+        margin-top: 24vh;
+
+        h1{
+           font-size: 3rem; 
+        }
+        p{font-size: 1.12rem;}
+    }
+}
