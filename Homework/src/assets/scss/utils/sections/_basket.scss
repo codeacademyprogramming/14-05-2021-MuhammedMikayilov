@@ -1,0 +1,35 @@
+#basket {
+  border: 2px solid $border;
+  position: absolute;
+  background: #fff;
+  padding: 22px;
+  top: 8.2em;
+  right: 2%;
+  width: 40%;
+
+  .count {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    height: 100%;
+  }
+
+  .price {
+    font-size: 30px;
+  }
+
+  &::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -20px;
+    right: 8%;
+    background-color: #fff;
+    transform: rotate(45deg);
+    border-radius: 12px;
+    border-left: 2px solid $border;
+    border-top: 2px solid $border;
+  }
+}
